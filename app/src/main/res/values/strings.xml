@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Martinez22101571EP202401</string>
+    <string name="tvSplash_tittle">Welcome to American Cup 2024</string>
+    <string name="tvSplash_subtittle">Immerse yourself in the excitement of soccer as nations compete for glory in this epic tournament.</string>
+    <string name="btGetStarted">GET STARTED</string>
+    <string name="tvLogin_tittle">LOGIN</string>
+    <string name="etUsuario_name">Email Address</string>
+    <string name="etPassword_name">Password</string>
+    <string name="btnLogin_name">SIGN IN</string>
+</resources>
