@@ -11,4 +11,8 @@
     <string name="btPrizes_name">PRIZES</string>
     <string name="btTeams_name">TEAMS</string>
     <string name="btStadiums_name">STADIUMS</string>
+    <string name="tvPrizes_tittle">PRIZES</string>
+    <string name="btPremio_name">CALCULATE</string>
+    <string name="tvPremioResult_default">Ingrese un monto para calcular</string>
+    <string name="btGoMenu_name">GO TO MENU</string>
 </resources>

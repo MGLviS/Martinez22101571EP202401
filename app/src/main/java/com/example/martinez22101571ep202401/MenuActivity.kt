@@ -1,6 +1,8 @@
 package com.example.martinez22101571ep202401
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +18,16 @@ class MenuActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val btPrizes: Button = findViewById(R.id.btPrizes)
+        val btTeams: Button = findViewById(R.id.btTeams)
+        val btStadiums: Button = findViewById(R.id.btStadiums)
+
+        btPrizes.setOnClickListener { goPrizesActivity() }
+
+    }
+
+    private fun goPrizesActivity() {
+        val intent = Intent(this, PrizesActivity::class.java)
+        startActivity(intent)
     }
 }
