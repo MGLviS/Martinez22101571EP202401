@@ -23,11 +23,16 @@ class MenuActivity : AppCompatActivity() {
         val btStadiums: Button = findViewById(R.id.btStadiums)
 
         btPrizes.setOnClickListener { goPrizesActivity() }
+        btTeams.setOnClickListener { goTeamsActivity() }
 
     }
 
     private fun goPrizesActivity() {
         val intent = Intent(this, PrizesActivity::class.java)
+        startActivity(intent)
+    }
+    private fun goTeamsActivity() {
+        val intent = Intent(this, TeamsActivity::class.java)
         startActivity(intent)
     }
 }
