@@ -31,7 +31,7 @@ class LoginActivity : AppCompatActivity() {
                 return@setOnClickListener
             } else{
                 if(etUsuario.text.toString() == "admin" && etPassword.text.toString() == "admin123"){
-                    val intent = Intent(this, MainActivity::class.java)
+                    val intent = Intent(this, MenuActivity::class.java)
                     startActivity(intent)
                 } else{
                     Toast.makeText(this,"Usuario o contraseña incorrectos",Toast.LENGTH_LONG).show()
