@@ -24,6 +24,7 @@ class MenuActivity : AppCompatActivity() {
 
         btPrizes.setOnClickListener { goPrizesActivity() }
         btTeams.setOnClickListener { goTeamsActivity() }
+        btStadiums.setOnClickListener { goStadiumsActivity() }
 
     }
 
@@ -33,6 +34,10 @@ class MenuActivity : AppCompatActivity() {
     }
     private fun goTeamsActivity() {
         val intent = Intent(this, TeamsActivity::class.java)
+        startActivity(intent)
+    }
+    private fun goStadiumsActivity() {
+        val intent = Intent(this, StadiumActivity::class.java)
         startActivity(intent)
     }
 }

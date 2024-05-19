@@ -16,4 +16,5 @@
     <string name="tvPremioResult_default">Ingrese un monto para calcular</string>
     <string name="btGoMenu_name">GO TO MENU</string>
     <string name="tvTeams_tittle">TEAMS</string>
+    <string name="tvStadium_tittle">STADIUM</string>
 </resources>
